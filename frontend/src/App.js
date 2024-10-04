@@ -1,3 +1,4 @@
+import "./App.css";
 import React, { useState } from "react";
 
 function App() {
@@ -19,8 +20,8 @@ function App() {
   };
 
   return (
-    <div>
-      <h1>Chatbot</h1>
+    <div className="container">
+      <h1>Chatbot for Deep Learning</h1>
       <input
         type="text"
         value={message}
